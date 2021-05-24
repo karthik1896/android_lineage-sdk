@@ -2901,10 +2901,8 @@ public final class LineageSettings {
 
         /**
          * String to contain power menu actions
-         * @deprecated
          * @hide
          */
-        @Deprecated
         public static final String POWER_MENU_ACTIONS = "power_menu_actions";
 
         /**
@@ -3031,8 +3029,10 @@ public final class LineageSettings {
 
         /**
          * The hostname for this device
+         * @deprecated
          * @hide
          */
+        @Deprecated
         public static final String DEVICE_HOSTNAME = "device_hostname";
 
         /**
